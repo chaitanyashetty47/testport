@@ -9,7 +9,7 @@ interface TestimonialCardProps {
 const TestimonialCard = ({ quote, author }: TestimonialCardProps) => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg text-center flex flex-col items-center">
-      <div className="text-5xl text-gray-300 mb-4">"</div>
+      <div className="text-5xl text-gray-300 mb-4">&ldquo;</div>
       <p className="text-gray-700 text-lg italic mb-4">{quote}</p>
       <div className="h-1 w-16 bg-purple-500 mb-2"></div>
       <p className="text-purple-500 font-semibold">{author}</p>
