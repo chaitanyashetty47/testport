@@ -17,8 +17,8 @@ const ProgramsCard = () => {
     },
     {
       icon: Sparkles,
-      title: "Manifesto Guidance",
-      description: "Discover your purpose and create a powerful personal manifesto for success",
+      title: "Manifestation Guidance",
+      description: "Discover your purpose and create a powerful personal manifestation for success",
       gradient: "from-purple-500 to-pink-500"
     },
     {
