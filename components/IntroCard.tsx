@@ -25,7 +25,7 @@ const IntroCard: FC<IntroCardProps> = ({ icon, title, description }) => {
       <div className="flex h-10 w-10 shrink-0 items-center justify-center">
         <Icon />
       </div>
-      <div className="space-y-1">
+      <div className="space-y-1 ">
         <h3 className="text-lg font-medium text-purple-600">{title}</h3>
         <p className="text-sm text-muted-foreground">{description}</p>
       </div>
