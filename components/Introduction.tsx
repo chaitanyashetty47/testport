@@ -1,5 +1,6 @@
 import IntroCard from "@/components/IntroCard";
 import strength from "@/app/assets/strength-pic.jpg"
+import communityIcon from "@/components/icons/hero.svg";
 import Image from "next/image"
 
 
@@ -86,8 +87,8 @@ export default function Introduction() {
         </div>
         
         <div className="flex items-center justify-center">
-          <div className="relative w-full max-w-lg overflow-hidden rounded-[40%_40%_40%_40%] aspect-[4/4]">
-            <Image
+          <div className="relative w-full max-w-lg overflow-hidden ">
+            {/* <Image
               src={strength}
               alt="Person in wheelchair showing strength"
               className="object-cover w-full h-full"
@@ -95,7 +96,19 @@ export default function Introduction() {
               height={800}
               sizes="(max-width: 768px) 100vw, 50vw"
               priority
-            />
+            /> */}
+            <Image
+            src={communityIcon}
+            alt="Community Icon"
+            // layout="fill"
+            width={800}
+            height={800}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority
+            objectFit="cover"
+            objectPosition="top"
+            className="opacity-90"
+          />
           </div>
         
         </div>

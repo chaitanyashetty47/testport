@@ -1,4 +1,5 @@
 import FAQSection from "@/components/FAQSection";
+import Featured from "@/components/Featured";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero"
 import Introduction from "@/components/Introduction";
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Header/>
       <Hero/>
+      <Featured/>
       <Introduction/>
       <section className='container mx-auto px-4 text-center mt-20'>
           <h1 className="text-3xl font-thin bg-gradient-to-r from-purple-600 via-indigo-400 to-violet-700 inline-block text-transparent bg-clip-text mb-6">
