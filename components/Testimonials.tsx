@@ -65,7 +65,7 @@ const Testimonials = () => {
   }, [totalWidth]);
 
   return (
-    <div className="py-10">
+    <div className="py-10 ">
       <h2 className="font-semibold text-3xl mb-6 text-center text-purple-500">
         What Our Customers Say
       </h2>

@@ -21,7 +21,7 @@ const IntroCard: FC<IntroCardProps> = ({ icon, title, description }) => {
   const Icon = iconComponents[icon];
 
   return (
-    <div className="flex items-start gap-4 rounded-lg border border-gray-200 p-4 transition-all hover:shadow-md max-w-sm mx-auto">
+    <div className="flex items-start gap-4 rounded-lg border border-gray-900 p-4 transition-all hover:shadow-md max-w-sm mx-auto">
       <div className="flex h-10 w-10 shrink-0 items-center justify-center">
         <Icon />
       </div>

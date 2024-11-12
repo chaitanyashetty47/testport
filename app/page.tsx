@@ -5,6 +5,7 @@ import Hero from "@/components/Hero"
 import Introduction from "@/components/Introduction";
 import ProgramsCard from "@/components/ProgramsCard";
 import Testimonials from "@/components/Testimonials";
+import Team from "@/components/Team"
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
           </h1>
           <ProgramsCard/>
       </section>
+
+      <Team/>
      
       <Testimonials/>
       <FAQSection/>

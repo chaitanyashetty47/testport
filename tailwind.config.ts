@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
   	extend: {
   		fontFamily: {
-  			sans: ['Inter', 'sans-serif']
+  			sans: ['var(--font-nunito-sans)'], // Makes Nunito Sans the default sans font
+        nunito: ['var(--font-nunito-sans)'],
   		},
   		colors: {
   			background: 'hsl(var(--background))',

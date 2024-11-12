@@ -51,7 +51,7 @@ export default function Introduction() {
   // );
 
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-12 ">
       <div className="mb-12 text-center">
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-purple-600 sm:text-5xl">
           Unlock Your Full Potential with STRENTOR
