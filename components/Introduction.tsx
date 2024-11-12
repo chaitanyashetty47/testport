@@ -1,5 +1,5 @@
 import IntroCard from "@/components/IntroCard";
-import strength from "@/app/assets/strength-pic.jpg"
+// import strength from "@/app/assets/strength-pic.jpg"
 import communityIcon from "@/components/icons/hero.svg";
 import Image from "next/image"
 
